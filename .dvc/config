@@ -1,0 +1,4 @@
+['remote "myremote"']
+url = ../docker/remote
+[core]
+remote = myremote
