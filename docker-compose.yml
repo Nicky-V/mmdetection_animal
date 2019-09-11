@@ -1,0 +1,10 @@
+version: '2.3'
+services:
+  mmdetection:
+    build: ./docker
+    ports:
+      - "5001:5001"
+    runtime: nvidia 
+    volumes:
+    #  - /media/user/DataDrive/Docker_env/mmdetection_container/docker:/mmdetection
+      - /media/user/DataDrive/Docker_env/mmdetection_container/docker:/mmdetection/docker
